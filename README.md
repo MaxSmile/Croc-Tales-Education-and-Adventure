@@ -6,7 +6,10 @@ Project for GovHack 2024. Northern Territory Challenges:
 
 **Croc Tales: Education and Adventure** is an interactive tourism and education initiative aimed at promoting public safety and increasing engagement with the Northern Territory’s (NT) rich wildlife and cultural heritage. Inspired by the success of Wrocław’s gnome statues, this project features crocodile statues scattered across NT cities, integrated with an interactive mobile-friendly web app. The app encourages users to explore NT, learn about Crocwise safety measures, and unlock fun rewards as they discover each statue.
 
+
 ![Croc Tales Logo](./images/CrocTales_Education-and-Adventure.webp)
+
+Demo: [https://croc-tales.web.app/](https://croc-tales.web.app/)
 
 ## About the Project
 

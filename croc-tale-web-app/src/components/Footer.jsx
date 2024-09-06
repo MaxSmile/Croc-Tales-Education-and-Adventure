@@ -28,8 +28,9 @@ export default function Footer() {
       <p className="mt-2">
         View our 
         <Link 
-          to="https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/docs/privacy_policy.md"
+          to="https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/docs/PRIVACY_POLICY.md"
           className="text-blue-600 hover:underline ml-1"
+          target="_blank"
         >
           Privacy Policy
         </Link>.
