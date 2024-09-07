@@ -62,7 +62,7 @@ const Quiz = () => {
   return (
     <Layout>
       <div className="container mx-auto text-center py-10">
-        <h1 className="text-4xl font-bold mb-6 text-blue-600">Crocwise Quiz</h1>
+        <h1 className="text-4xl font-bold mb-6 text-gray-800">Crocwise Quiz</h1>
 
         {showScore ? (
           <div className="bg-gray-200 p-6 rounded-lg">
@@ -83,7 +83,7 @@ const Quiz = () => {
                 <button
                   key={index}
                   onClick={() => handleAnswerOptionClick(index)}
-                  className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
+                  className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition duration-300"
                 >
                   {option}
                 </button>

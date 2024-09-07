@@ -27,7 +27,7 @@ const challengeLinks = [
 export default function Footer() {
   return (
     <footer className="bg-ntBlack text-gray-200 p-8">
-      <div className="container mx-auto flex flex-col lg:flex-row justify-between lg:space-x-8">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-between lg:space-x-8 pt-8">
         {/* Left Column: Project and Repository Info */}
         <div className="lg:w-1/3 mb-6 lg:mb-0">
           <h3 className="text-xl font-semibold">Croc Tales: Education and Adventure</h3>
@@ -67,7 +67,7 @@ export default function Footer() {
           <h3 className="text-xl font-semibold">Useful Links</h3>
           <ul className="mt-2 space-y-2">
             {footerLinks.map((link, index) => (
-              <li key={index} className="ml-4">
+              <li key={index}>
                 <a 
                   href={link.href} 
                   target="_blank" 
@@ -86,7 +86,7 @@ export default function Footer() {
           <h3 className="text-xl font-semibold">Team Members</h3>
           <ul className="mt-2 space-y-2">
             {teamLinks.map((link, index) => (
-              <li key={index} className="ml-4">
+              <li key={index}>
                 <a 
                   href={link.href} 
                   target="_blank" 
@@ -105,7 +105,7 @@ export default function Footer() {
 
       {/* Bottom Text */}
       <div className="mt-6 text-center">
-        <p>&copy; 2024 Croc Tales: Education and Adventure. All rights reserved.</p>
+        <p>&copy; 2024 <a href="https://hackerspace.govhack.org/team_management/teams/2553" target="_blank" className="text-bold hover:underline">Vasilkoff Govhack Fellowship</a>. All rights reserved.</p>
       </div>
     </footer>
   );

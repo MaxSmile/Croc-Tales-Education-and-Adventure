@@ -25,6 +25,8 @@ export default function CrocStories() {
                             
                             <p className="text-lg mb-4">{story.crocwiseLesson}</p>
                             <img src={story.image || '/images/croc-logo.svg'} alt={story.title} className="w-full h-auto" />
+
+                            <p className="text-sm mt-4">Find out more<a href={story.url} target="_blank" rel="noopener noreferrer">{story.url}</a></p>
                         </div>  
                     )
                     })
