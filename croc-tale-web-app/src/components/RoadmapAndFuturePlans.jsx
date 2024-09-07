@@ -4,10 +4,11 @@ import { Chrono } from 'react-chrono'; // Import react-chrono for timeline
 import { Link } from 'react-router-dom';
 import TimeLineItems from '../data/timeline';
 
-// Timeline Data
-const roadmapItems = TimeLineItems;   
+
 
 const RoadmapAndFuturePlans = () => {
+  // Timeline Data
+  const roadmapItems = TimeLineItems;
   return (
     <section className="bg-gray-100 py-12">
       <div className="container mx-auto px-4 text-center">
