@@ -1,45 +1,77 @@
-# CROC TALES: ACHIEVEMENTS
+# CROC TALES: GAME SYSTEM DOCUMENTATION
+## 1. List of Goals & Challenges
+Users embark on a journey to explore Northern Territory (NT), with a list of goals and challenges that encourage engagement with local attractions and cultural education.
 
-## Feature: Share Achievements with Croc-Themed Photo Frames
+**Key Challenges:**
 
-### 1. **Achievement Sharing**
-When users unlock achievements, they should have the option to share them directly on social media platforms like Facebook, Instagram, or Twitter. Each achievement could be represented as a unique image or badge, allowing users to proudly display their progress in the app.
+- Visit major NT landmarks and wildlife hotspots.
+- Interact with QR-code-enabled crocodile statues for learning and unlocking rewards.
+- Complete quizzes like the Crocwise Safety Quiz, reinforcing local knowledge.
+- Check into attractions and upload photos or reviews to gain extra points.
 
-**Key elements:**
-- **Achievement Badges**: Unique, visually appealing badges for each milestone (e.g., “Visited 5 Crocs,” “Completed Crocwise Quiz”).
-- **Social Media Integration**: Include built-in sharing buttons that link directly to the user's social media accounts.
-- **Custom Messages**: Pre-fill a message with hashtags (e.g., #CrocTalesNT, #ExploreNT) that users can post along with their shared achievement.
+  **Rewards for Completion:**
 
-### 2. **Croc-Themed Photo Frames**
-Allow users to take or upload a photo and insert it into croc-themed photo frames, celebrating their visit to a specific location or completion of a quiz. This feature would be ideal for families, tourists, and adventurers who want to capture their NT journey and share it on social media.
+- Achievement badges for each challenge (e.g., “Visited 5 Crocs”).
+- Treasure hunt-like hints about nearby attractions after completing a quiz.
+- Points awarded for each challenge or quiz completed.
+## 2. Quizzes & Treasure Hunt
+- Interactive Quizzes: Complete quizzes, such as the Crocwise Safety Quiz, to test knowledge on local safety and culture.
+- Treasure Hunt Clues: Upon completing a quiz, users receive hints about hidden tourist spots, adding a treasure hunt element.
+- Example:
+After answering all quiz questions correctly, the user gets a hint like, “A hidden waterfall lies to the north—find it and earn bonus points!”
+## 3. Points System
+Users accumulate points by engaging with NT attractions, submitting reviews, and sharing photos.
 
-**How it works:**
-- **Take/Upload a Photo**: Users can take a photo directly from the app (using the device camera) or upload an existing image.
-- **Croc-Themed Frames**: Provide several different frames, each themed around crocodiles or NT’s natural beauty. For instance:
-   - A crocodile peeking out from the edge of the frame.
-   - Frames representing famous landmarks (e.g., Kakadu, Litchfield) alongside a crocodile.
-   - A “Crocwise Safety” frame for users completing the safety quiz.
-- **Customizable Text**: Allow users to add text to the image, such as the location they visited or their achievement.
-- **Download & Share**: Users can download the framed image and share it on social media directly from the app.
+**Points Accumulation:**
 
-### 3. **Technical Approach**
+- Check-ins: Users earn points for checking in at various attractions, landmarks, or QR-coded crocodile statues.
+- Bonus Points: Extra points for adding reviews or uploading photos of the attractions they visit.
+- Map Progress: Users can view their accumulated points and achievements displayed on a personalized map of NT.
+- Example:
+   Checking in at Kakadu National Park: 50 points.
+   Submitting a review: +20 points.
+   Uploading a photo: +10 points.
+## 4. Points Redemption & Local Business Integration
+Points can be exchanged for various offers from local businesses, fostering deeper engagement between tourists and the local economy.
 
-- **Canvas API**: Use the HTML5 `Canvas` API for adding the photo frame around the user’s image.
-- **Social Sharing API**: Integrate social media sharing capabilities with a package like `react-share` to make it easy for users to post their achievements or photos on different platforms.
-- **Photo Editing Libraries**: Consider using libraries like `react-photo-editor` or `fabric.js` for adding frames and text to the user’s images.
+**Rewards:**
 
-### Sample Flow:
+- Discounts: Redeem points for discounts on accommodations, flights, meals, and leisure activities.
+- Local Gifts: Points can be used for free souvenirs or local signature cuisine.
+- Example Redemption:
+  200 points for a 10% discount on a hotel stay.
+  150 points for a free souvenir from a participating local business.
+## 5. Achievement Sharing with Croc-Themed Photo Frames
+Once users unlock achievements, they can share them directly on social media platforms like Facebook, Instagram, and Twitter. These achievements will be represented by unique badges or croc-themed frames, making them visually appealing and shareable.
 
-1. **User Unlocks Achievement**: After visiting a certain number of statues or completing a quiz, they are shown a badge with a “Share Your Achievement” button.
-   
-2. **Choose a Frame**: If they opt to take a photo, they can choose from a selection of croc-themed frames before snapping a picture or uploading one.
+**Key Elements:**
 
-3. **Customize & Share**: They can add text, apply filters, and then share the photo directly to social media with pre-filled hashtags and captions, or save it to their device.
+- Achievement Badges: Custom badges such as “Visited 5 Croc Statues” or “Completed Crocwise Quiz.”
+- Social Media Integration: Users can share their achievements through built-in social media buttons with pre-filled messages and hashtags (e.g., #CrocTalesNT, #ExploreNT).
+- Croc-Themed Photo Frames: Users can take a photo within the app or upload one and apply croc-themed frames celebrating their NT journey.
+- Frame Examples:
+   A crocodile peeking out from the frame.
+   NT landscapes (e.g., Kakadu or Litchfield) with a crocodile-themed edge.
+   Special frames like “Crocwise Safety” for completing quizzes.
+  
+**Customizable Text & Sharing:**
 
-### Example Achievement Badge with Frame:
+- Users can add custom text, such as the location they visited or their achievement, and then share the framed photo on social media or download it.
+- Example Badge & Frame:
 
-- Achievement: “You’ve Discovered 5 Croc Statues!”
-- Croc Frame: Crocodile tail wrapping around the photo frame, with a scenic NT backdrop.
-- Share Button: Users can share on social media with the hashtag #CrocTalesNT.
+   Achievement: “You’ve Discovered 5 Croc Statues!”
+   Frame: A crocodile tail wraps around the photo frame, featuring a scenic NT backdrop.
+   Share Button: Users can share their photo with the hashtag #CrocTalesNT.
+## 6. Personalised Recommendations
+- Location-Based Suggestions: The app will offer personalized recommendations for nearby attractions, restaurants, or cultural landmarks based on the user’s location.
+- Crocodile Activity Alerts: Alerts and warnings about nearby crocodile zones will be sent to users, promoting safety and awareness with real-time crocodile activity heatmaps.
+## 7. Gamified QR Code Integration
+- Crocodile Statues: Users can scan QR codes placed on crocodile statues at key NT locations. This unlocks educational content and points that contribute to their map and overall score.
+- Cultural Learning: Each scanned QR code leads to educational content about NT’s history, culture, and wildlife.
+## 8. Technical Approach
+- Canvas API: To implement the croc-themed photo frames, HTML5’s Canvas API will be used to overlay frames and text onto user photos.
+- Social Sharing API: Integration with social media platforms will be handled using a package like react-share, allowing users to easily share achievements.
+- Photo Editing Libraries: Libraries like react-photo-editor or fabric.js can enable photo editing capabilities, such as adding frames and customizing text.
+- QR Code Libraries: Use libraries such as jsQR or QRCode.js to facilitate scanning and unlocking achievements at key NT attractions.
 
 This feature would boost user engagement by making their experience more memorable and shareable, thus promoting the app and NT tourism through user-generated content.
