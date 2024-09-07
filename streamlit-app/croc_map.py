@@ -1,11 +1,36 @@
 import streamlit as st
 import pandas as pd
+import folium
+from streamlit_folium import folium_static
 
 DATA_URL = "https://rolzy-blog-assets.s3.ap-southeast-2.amazonaws.com/Crocodile_Survey_Data_2021_22.xlsx"
 DATE_COLUMN = "utc_date"
 
 # Create title
-st.title('Crocodile Sightings in the Northern Territory')
+st.set_page_config(
+    page_title="Crocodile Sightings in the Northern Territory",
+    page_icon="🐊",
+    layout="wide"
+)
+
+# Add custom CSS to set the background color
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #E6C9A8;  # A sandy, earthy color reminiscent of the Australian outback
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Create title with custom styling
+st.markdown("""
+    <h1 style='text-align: center; color: #FF6600; text-shadow: 2px 2px #000000;'>
+        Crocodile Sightings in the Northern Territory
+    </h1>
+    """, unsafe_allow_html=True)
 
 @st.cache_data
 def load_data(nrows):
@@ -30,27 +55,62 @@ data_load_state.empty()
 MIN_DATE = data[DATE_COLUMN].min().to_pydatetime()
 MAX_DATE = data[DATE_COLUMN].max().to_pydatetime()
 
-# Display map of croc sightings
 # Create a filter for the sightings
-show_filter = st.checkbox('Filter by date', value=False)
+st.sidebar.markdown("## Filter Options")
+show_filter = st.sidebar.checkbox('Filter by date', value=False)
 
 if show_filter:
     available_dates = sorted(data[DATE_COLUMN].dt.date.unique())
-    day_to_filter = st.selectbox(
+    day_to_filter = st.sidebar.selectbox(
             'Select Date', 
             options=available_dates, 
             format_func=lambda x: x.strftime('%Y-%m-%d')
     )
     filtered_data = data[data[DATE_COLUMN].dt.date == day_to_filter]
-    st.subheader(f'Map of all sightings on {day_to_filter}')
+    st.markdown(f"<h3 style='color: #FF6600;'>Map of all sightings on {day_to_filter}</h3>", unsafe_allow_html=True)
 else:
     filtered_data = data
-    st.subheader('Map of all sightings')
+    st.markdown("<h3 style='color: #FF6600;'>Map of all sightings</h3>", unsafe_allow_html=True)
 
-st.map(filtered_data)
+#st.map(filtered_data, use_container_width=True)
+# Create a folium map
+m = folium.Map(location=[filtered_data['latitude'].mean(), filtered_data['longitude'].mean()], 
+               zoom_start=5, 
+               tiles="CartoDB positron")  # Light theme
 
-# Show raw data (optional)
+# Add markers for each sighting
+for idx, row in filtered_data.iterrows():
+    folium.CircleMarker(
+        location=[row['latitude'], row['longitude']],
+        radius=5,
+        popup=f"Date: {row[DATE_COLUMN].strftime('%Y-%m-%d')}",
+        color="#FF6600",
+        fill=True,
+        fillColor="#FF6600"
+    ).add_to(m)
+
+# Display the map
+folium_static(m, width=1000, height=600)
+#st.pydeck_chart(pdk.Deck(
+#    map_style="mapbox://styles/mapbox/satellite-v9",
+#    initial_view_state=pdk.ViewState(
+#        latitude=filtered_data['latitude'].mean(),
+#        longitude=filtered_data['longitude'].mean(),
+#        zoom=5,
+#        pitch=0,
+#    ),
+#    layers=[
+#        pdk.Layer(
+#            'ScatterplotLayer',
+#            data=filtered_data,
+#            get_position='[longitude, latitude]',
+#            get_color='[200, 30, 0, 160]',
+#            get_radius=1000,
+#        ),
+#    ],
+#))
+
 if st.checkbox('Show raw data'):
-    st.subheader('Raw data')
-    st.write(data)
+    st.markdown("<h3 style='color: #FF6600;'>Raw data</h3>", unsafe_allow_html=True)
+    st.dataframe(data.style.set_properties(**{'background-color': '#FFF3E0', 'color': '#000000'}))
 

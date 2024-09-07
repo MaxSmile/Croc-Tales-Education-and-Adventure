@@ -17,8 +17,12 @@ const Explore = () => {
 
         {/* Map Preview (Placeholder for future integration) */}
         <div className="mb-10">
-          <div className="bg-gray-300 rounded-lg h-64 flex items-center justify-center">
-            <p className="text-gray-700 text-lg">Interactive Map Coming Soon!</p>
+          <div className="bg-gray-500 rounded-lg h-full flex items-center justify-center">
+            <iframe
+              title="Streamlit application"
+              src="https://croc-tales.streamlit.app?embed=true"
+              style={{width: "100%", height: "800px"}}
+            ></iframe>
           </div>
         </div>
 
