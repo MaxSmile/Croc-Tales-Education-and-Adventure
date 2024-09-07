@@ -2,51 +2,44 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Layout from '../layouts/Layout';
+import CrocStoriesData from '../data/crocs';
+import NotFound from './NotFound'; // Import the NotFound component
 
-// Dummy data for croc stories
-const crocStories = {
-  1: {
-    title: "The Legend of Darwin's Croc",
-    description: "This crocodile statue in Darwin symbolizes the resilience of the Northern Territory's people. It was crafted in 1985 and stands as a reminder of living harmoniously with nature.",
-    location: "Darwin City",
-  },
-  2: {
-    title: "Kakadu's Wild Crocodile",
-    description: "Found in the heart of Kakadu National Park, this statue represents the wild spirit of the crocodiles that inhabit the region. Visitors are reminded of the importance of Crocwise safety measures in this remote area.",
-    location: "Kakadu National Park",
-  },
-  3: {
-    title: "Katherine's Croc Protector",
-    description: "Standing tall in Katherine, this statue tells the story of how the local community has coexisted with crocodiles for centuries, respecting their space and power.",
-    location: "Katherine",
-  },
-  4: {
-    title: "Arnhem Land's Sacred Croc",
-    description: "This statue, located in Arnhem Land, holds deep cultural significance for the Indigenous communities, representing the sacred connection between the people and the land’s crocodile population.",
-    location: "Arnhem Land",
-  },
-};
+import placeholderImage from "../assets/placeholder.svg";
 
 const CrocStory = () => {
   const { crocId } = useParams(); // Get the dynamic crocId from the URL
-  const crocStory = crocStories[crocId]; // Get the story based on crocId
+  const crocStory = CrocStoriesData[crocId]; // Get the story based on crocId
+
+  const PlaceholderImage = () => <img src={placeholderImage} alt="Placeholder" 
+  className="w-full max-w-xs rounded-lg shadow-md" />
+
+  // If crocStory is not found, render the NotFound component
+  if (!crocStory) {
+    return <NotFound />;
+  }
 
   return (
     <Layout>
-      <div className="container mx-auto text-center py-10">
-        {/* Check if the croc story exists */}
-        {crocStory ? (
-          <>
-            <h1 className="text-4xl font-bold mb-4 text-blue-600">{crocStory.title}</h1>
-            <p className="text-lg mb-6 text-gray-700">{crocStory.description}</p>
-            <p className="text-md text-gray-500">Location: {crocStory.location}</p>
-          </>
-        ) : (
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-red-600">Crocodile Story Not Found</h1>
-            <p className="text-lg text-gray-700">We couldn't find the story for this crocodile. Please try a different one.</p>
-          </div>
-        )}
+      <div className="container mx-auto py-10 flex flex-col lg:flex-row items-center">
+        {/* Left side: Image section */}
+        <div className="lg:w-1/2 flex justify-center mb-6 lg:mb-0">
+          {crocStory.image ? (
+            <img src={crocStory.image} alt={crocStory.title} 
+                className="w-full max-w-xs rounded-lg shadow-md" />
+          ) : (
+            <PlaceholderImage />
+          )}
+        </div>
+
+        {/* Right side: Text section */}
+        <div className="lg:w-1/2 text-center lg:text-left lg:pl-10">
+          <h1 className="text-4xl font-bold mb-4 text-blue-600">{crocStory.title}</h1>
+          <p className="text-lg mb-6 text-gray-700">{crocStory.story}</p>
+          <p className="text-md mb-4 text-gray-500">Location: {crocStory.location}</p>
+          <p className="text-md mb-4 text-gray-500">Design: {crocStory.design}</p>
+          <p className="text-md text-green-600 font-semibold">Crocwise Lesson: {crocStory.crocwiseLesson}</p>
+        </div>
       </div>
     </Layout>
   );

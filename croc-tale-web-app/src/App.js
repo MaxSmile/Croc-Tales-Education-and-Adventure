@@ -7,6 +7,8 @@ import Quiz from './pages/Quiz';
 import CrocStory from './pages/CrocStory';
 import Achievements from './pages/Achievements';
 import NotFound from './pages/NotFound';
+import CrocStories from './pages/CrocStories';
+import Roadmap from './pages/Roadmap';
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/explore" element={<Explore />} />
       <Route path="/quiz" element={<Quiz />} />
+      <Route path="/stories" element={<CrocStories/> } />
       <Route path="/story/:crocId" element={<CrocStory />} />
       <Route path="/achievements" element={<Achievements />} />
+      <Route path="/roadmap" element={<Roadmap />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
