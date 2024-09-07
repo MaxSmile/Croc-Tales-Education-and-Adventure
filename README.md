@@ -133,10 +133,11 @@ This project is part of the **GovHack 2024** competition, with the goal of boost
 2. **Web App (React.js-based)**:  
    - **Camera QR Scanner**: Users scan QR codes at the statues to unlock stories and progress through the game.
    - **Quiz System**: Users answer questions based on **Crocwise** safety tips to unlock the next crocodile statue location on the map.
-   - **Interactive Map**: Shows the user's current location and nearby crocodile statues to visit.
-   - **Achievements & Badges**: Users can unlock and share achievements as they visit statues and complete quizzes.
+   - **Interactive Map**: Shows the user's current location and nearby crocodile statues (local attractions) to visit.
+   - **Achievements & Badges - Gamification Factor**: Users can unlock and share achievements as they visit statues and complete quizzes.
    - **Social Media Integration**: Users can share their achievements and crocodile-themed photo frames on social media platforms.
    - **Crocwise Education**: Integrated educational tips and fun facts about crocodile safety at each stage.
+   - **Personlised Local Services Recommendations**: Locates user's current location and suggests nearby local services.
 
 ---
 
@@ -162,6 +163,10 @@ This project is part of the **GovHack 2024** competition, with the goal of boost
    - **Crocodile Population Insights**: This survey dataset includes monitoring information about crocodile populations across different regions.  
    - **Educational Content**: The app can use this data to educate users about population trends in specific areas, providing context on why Crocwise education is critical.
    - **Location-Based Insights**: Users visiting areas with higher crocodile populations will receive additional Crocwise safety messages based on the data.
+
+6.**NT Parks and Reserves - NTG Open Data Portal** [NT Parks and Reserves - NTG Open Data Portal](https://data.nt.gov.au/dataset/natural-resource-maps---nt-parks-and-reserves)
+**Integration**:
+   - **Local Services and Amenities Examples On Map**: This is the first factor/example (parks and reserves) of how the project will integrate other local services data onto user's real map. And based on user's location, suggest nearby local services.
 
 By integrating these datasets, the app can deliver more **real-time safety information** and **educational insights**, making it an even more engaging and informative tool for both tourists and locals.
 
