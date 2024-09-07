@@ -8,11 +8,13 @@ const Explore = () => {
     <Layout>
       <div className="container mx-auto text-center py-10">
         {/* Title */}
-        <h1 className="text-4xl font-bold mb-6 text-gray-800">Explore Croc Locations</h1>
+        <h1 className="text-4xl font-bold mb-6 text-blue-600">Explore Northern Territory</h1>
         
         {/* Introduction */}
-        <p className="text-lg text-gray-700 mb-8 mx-auto max-w-3xl">
-          Discover the crocodile statues scattered across the Northern Territory. Explore locations, learn about crocodile safety, and uncover the stories behind each unique statue.
+        <p className="text-lg text-gray-700 mb-8">
+          Discover the crocodile statues scattered across the Northern Territory.<br />
+          Or, check out the numerous parks and natural reserves<br />
+          Explore locations, learn about crocodile safety, and uncover the stories behind each unique statue.
         </p>
 
         {/* Map Preview (Placeholder for future integration) */}
@@ -20,7 +22,7 @@ const Explore = () => {
           <div className="bg-gray-500 rounded-lg h-full flex items-center justify-center">
             <iframe
               title="Streamlit application"
-              src="https://croc-tales.streamlit.app?embed=true"
+              src="https://croc-tales.streamlit.app/~/+/?embed=true"
               style={{width: "100%", height: "800px"}}
             ></iframe>
           </div>

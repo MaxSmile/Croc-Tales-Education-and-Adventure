@@ -1,0 +1,4 @@
+openpyxl==3.1.5
+folium==0.17.0
+streamlit_folium==0.22.0
+geopandas==1.0.1
