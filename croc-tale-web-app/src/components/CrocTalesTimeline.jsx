@@ -6,7 +6,7 @@ const CrocTalesTimeline = () => {
     const items = [
         {
           title: "Phase 1: Initial Planning",
-          cardTitle: "Team Formation and Conceptualization",
+          cardTitle: "Team Formation and Conceptualisation",
           cardDetailedText: "The Vasilkoff GovHack Fellowship team formed and brainstormed ideas for Croc Tales: Education and Adventure. Initial project goals and design concepts were outlined.",
         },
         {
@@ -25,9 +25,9 @@ const CrocTalesTimeline = () => {
           cardDetailedText: "Drafted the educational flow of the app, including multiple-choice quizzes and a progressive learning experience for users about crocodile safety.",
         },
         {
-          title: "Phase 3: QR Code Mock Feature",
-          cardTitle: "Mock QR Code Scanning Setup",
-          cardDetailedText: "Set up a mock QR code scanning feature within the app, allowing users to unlock Crocwise stories and safety information by scanning QR codes integrated into the statues.",
+          title: "Phase 3: QR Code, Crocodile Alert Generation, Personalised Map Suggestion, Frequently Asked Questions & Answers, User Reviews & Achievements Mock Features",
+          cardTitle: "Mock QR Code, Crocodile Alert Generation, Personalised Map Suggestion, Frequently Asked Questions & Answers, User Reviews & Achievements Scanning Setup",
+          cardDetailedText: "Set up mock QR Code, Crocodile Alert Generation, Personalised Map Suggestion, Frequently Asked Questions & Answers, User Reviews & Achievements, allowing expected visualisation of complete design in the future.",
         },
         {
           title: "Friday 7:00pm",
@@ -41,8 +41,8 @@ const CrocTalesTimeline = () => {
         },
         {
           title: "Saturday 12:00pm",
-          cardTitle: "Finalize Challenge and App Features",
-          cardDetailedText: "By midday, the team finalized the app's core features, ensuring the app met the GovHack challenges and began integrating the Crocwise educational flow with the interactive map.",
+          cardTitle: "Finalise Challenge and App Features",
+          cardDetailedText: "By midday, the team finalised the app's core features, ensuring the app met the GovHack challenges and began integrating the Crocwise educational flow with the interactive map.",
         },
         {
           title: "Saturday 7:00pm",
