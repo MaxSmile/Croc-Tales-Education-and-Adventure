@@ -105,7 +105,8 @@ export default function Footer() {
 
       {/* Bottom Text */}
       <div className="mt-6 text-center">
-        <p>&copy; 2024 <a href="https://hackerspace.govhack.org/team_management/teams/2553" target="_blank" className="text-bold hover:underline">Vasilkoff Govhack Fellowship</a>. All rights reserved.</p>
+        <p>&copy; 2024 <a href="https://hackerspace.govhack.org/team_management/teams/2553" target="_blank" rel="noopener noreferrer"
+        className="text-bold hover:underline">Vasilkoff Govhack Fellowship</a>. All rights reserved.</p>
       </div>
     </footer>
   );
