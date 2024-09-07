@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-200 text-gray-700 p-4 text-center">
-      <p>&copy; 2024 Croc Tales: Education and Adventure. All rights reserved.</p>
+    <footer className="bg-ntBlack text-gray-200 p-4 text-center">
+      
       
       {/* Open Source Info */}
       <p className="mt-2">
@@ -35,6 +35,7 @@ export default function Footer() {
           Privacy Policy
         </Link>.
       </p>
+      <p>&copy; 2024 Croc Tales: Education and Adventure. All rights reserved.</p>
     </footer>
   );
 }

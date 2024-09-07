@@ -1,0 +1,21 @@
+
+.btn {
+    @apply font-bold py-2 px-4 rounded bg-white text-gray-700 hover:bg-gray-200 transition duration-300;
+}
+
+.shadow {
+    @drop-shadow hover:drop-shadow-xl;
+} 
+
+.animate-marquee {
+    animation: marquee 10s linear infinite;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
