@@ -35,14 +35,13 @@ export default function Footer() {
             Croc Tales aims to promote tourism in the Northern Territory while educating users on Crocwise safety practices through interactive exploration and fun challenges.
           </p>
           <p className="mt-2 text-sm">
-            This project is open-source. Check out the repository on 
-            <a 
+            This project is open-source. Check out the repository on  <a 
               href="https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure"
               target="_blank" rel="noreferrer"
               className="text-bold hover:underline ml-1"
             >
               GitHub <FaGithub className="inline-block m-1" />
-            </a>.
+            </a>
           </p>
           <h3 className="text-xl font-semibold mt-4">GovHack Challenges</h3>
           <ul className="mt-2 space-y-2 text-sm">
