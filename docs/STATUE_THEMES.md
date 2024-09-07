@@ -55,6 +55,7 @@ Drawing inspiration from Wrocław's creative gnome statues, here's a list of **c
 - **Design**: A crocodile wearing diving gear, mask, snorkel, and flippers, next to a sign saying “Do not enter the water.”
 - **Crocwise Lesson**: “Never enter water without checking for crocodile risks.”
 - **Story**: This croc emphasizes safety awareness before engaging in water activities in croc-prone areas.
+![Diver Croc](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/scuba%20croc.png?raw=true)
 
 ## 10. **Croc Farmer**
 - **Location**: Crocodylus Park, Darwin
@@ -85,6 +86,7 @@ Drawing inspiration from Wrocław's creative gnome statues, here's a list of **c
 - **Design**: A crocodile in a teacher’s outfit, pointing to a blackboard with a Crocwise safety tip written on it.
 - **Crocwise Lesson**: “Learn Crocwise early, and share it with your family and friends.”
 - **Story**: This croc emphasizes the importance of teaching crocodile safety to the younger generation.
+![Teacher Croc](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/teachercroc.png?raw=true)
 
 ## 15. **Croc Magician**
 - **Location**: Darwin Festival Grounds
