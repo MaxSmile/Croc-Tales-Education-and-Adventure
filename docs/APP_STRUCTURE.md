@@ -33,9 +33,9 @@ In general, the app is React.js based.
 
 ### **App Flow**:
 
-1. **Start Adventure**: Users are introduced to the app and given a map with the first unlocked crocodile statue location.
+1. **Start Adventure**: Users are introduced to the app and given a map with the first unlocked crocodile statue location (local attraction), and local services.
 2. **Visit and Scan**: Users scan the QR code at a statue, unlocking Crocwise safety information and a local story.
-3. **Complete Quiz**: Users complete a Crocwise quiz related to the statue to unlock the next croc location.
+3. **Complete Quiz**: Users complete a Crocwise quiz related to the statue to unlock the next croc location (local attractions).
 4. **Achievements & Sharing**: Users collect digital badges and can share their progress or photos on social media.
 5. **Explore More Locations**: Users continue exploring NT by visiting more croc statues, scanning, learning, and unlocking new locations.
 
