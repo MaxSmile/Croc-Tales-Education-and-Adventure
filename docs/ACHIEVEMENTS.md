@@ -54,7 +54,7 @@ Once users unlock achievements, they can share them directly on social media pla
    NT landscapes (e.g., Kakadu or Litchfield) with a crocodile-themed edge.
    Special frames like “Crocwise Safety” for completing quizzes.
   
-**Customizable Text & Sharing:**
+**Customisable Text & Sharing:**
 
 - Users can add custom text, such as the location they visited or their achievement, and then share the framed photo on social media or download it.
 - Example Badge & Frame:
@@ -63,7 +63,7 @@ Once users unlock achievements, they can share them directly on social media pla
    Frame: A crocodile tail wraps around the photo frame, featuring a scenic NT backdrop.
    Share Button: Users can share their photo with the hashtag #CrocTalesNT.
 ## 6. Personalised Recommendations
-- Location-Based Suggestions: The app will offer personalized recommendations for nearby attractions, restaurants, or cultural landmarks based on the user’s location.
+- Location-Based Suggestions: The app will offer personalised recommendations for nearby attractions, restaurants, or cultural landmarks based on the user’s location.
 - Crocodile Activity Alerts: Alerts and warnings about nearby crocodile zones will be sent to users, promoting safety and awareness with real-time crocodile activity heatmaps.
 ## 7. Gamified QR Code Integration
 - Crocodile Statues: Users can scan QR codes placed on crocodile statues at key NT locations. This unlocks educational content and points that contribute to their map and overall score.
