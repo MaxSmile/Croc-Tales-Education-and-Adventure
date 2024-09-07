@@ -2,7 +2,7 @@
 import React from 'react';
 import { Chrono } from 'react-chrono'; // Import react-chrono for timeline
 import { Link } from 'react-router-dom';
-import TimeLineItems from '../data/timeline';
+import TimeLineItems from '../data/timelines';
 
 
 
