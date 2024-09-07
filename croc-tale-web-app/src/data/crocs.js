@@ -5,6 +5,7 @@ const CrocStoriesData = {
       design: "A crocodile dressed as an adventurer with a backpack, map, and binoculars, gazing over the water.",
       crocwiseLesson: "Always stay at least 5 meters away from the water’s edge.",
       story: "This croc represents the spirit of exploration and the importance of being cautious near water bodies.",
+      image: "/images/explorer.jpeg",
     },
     2: {
       title: "Lifeguard Croc",
@@ -12,6 +13,7 @@ const CrocStoriesData = {
       design: "A crocodile wearing lifeguard gear, complete with sunglasses, a whistle, and a life buoy, sitting in a high chair overlooking the beach.",
       crocwiseLesson: "Never swim in rivers, creeks, or beaches where crocodiles may live.",
       story: "This croc educates visitors about water safety and the importance of swimming in designated areas.",
+      image: "/images/lifeguard.jpeg",
     },
     3: {
       title: "Farmer Croc",
@@ -19,6 +21,7 @@ const CrocStoriesData = {
       design: "A crocodile dressed as a farmer with a hat, boots, and a shovel, working near the water with a fence nearby.",
       crocwiseLesson: "Keep livestock and pets away from the water’s edge to prevent attacks.",
       story: "This croc symbolizes the connection between agriculture and wildlife management in NT.",
+      image: "/images/farmer.jpeg",
     },
     4: {
       title: "Croc Ranger",
@@ -26,6 +29,7 @@ const CrocStoriesData = {
       design: "A crocodile in ranger uniform holding binoculars, with a sign that reads 'Crocodile Territory.'",
       crocwiseLesson: "Observe warning signs and never ignore crocodile danger zones.",
       story: "Represents the park rangers who help protect both tourists and crocodiles, ensuring a safe environment.",
+      image: "/images/ranger.jpeg",
     },
     5: {
       title: "Fisherman Croc",
@@ -33,6 +37,7 @@ const CrocStoriesData = {
       design: "A crocodile holding a fishing rod, with a boat nearby and a bucket full of fish.",
       crocwiseLesson: "Always be cautious when fishing, and don’t clean fish near the water’s edge.",
       story: "This croc educates fishermen about safe practices when fishing in crocodile territory.",
+      image: "/images/fisherman.jpeg",
     },
     6: {
       title: "Croc Doctor",
@@ -40,6 +45,7 @@ const CrocStoriesData = {
       design: "A crocodile dressed as a doctor with a stethoscope and a medical kit, checking another animal patient.",
       crocwiseLesson: "If bitten by a crocodile, seek medical attention immediately.",
       story: "Represents the importance of first aid and emergency response after a crocodile encounter.",
+      image: "/images/doctor.jpeg",
     },
     7: {
       title: "Bush Croc",
@@ -47,6 +53,7 @@ const CrocStoriesData = {
       design: "A crocodile in bush gear with a wide-brimmed hat and hiking boots, carrying a walking stick and a water bottle.",
       crocwiseLesson: "Be aware of crocodiles while hiking near rivers or billabongs.",
       story: "This croc emphasizes staying cautious while hiking near water bodies where crocs may reside.",
+      image: "/images/bush.jpeg",
     },
     8: {
       title: "Croc Photographer",
@@ -54,6 +61,7 @@ const CrocStoriesData = {
       design: "A crocodile holding a camera, ready to take a wildlife photo, with a bird perched nearby.",
       crocwiseLesson: "Always stay in designated safe viewing areas when watching wildlife.",
       story: "This croc promotes responsible wildlife watching and safety for photographers in NT.",
+      image: "/images/photographer.jpeg",
     },
     9: {
       title: "Diver Croc",
@@ -61,14 +69,16 @@ const CrocStoriesData = {
       design: "A crocodile wearing diving gear, mask, snorkel, and flippers, next to a sign saying 'Do not enter the water.'",
       crocwiseLesson: "Never enter water without checking for crocodile risks.",
       story: "This croc emphasizes safety awareness before engaging in water activities in croc-prone areas.",
-      image: "/images/scubacroc.png",
+      image: "/images/diver.jpeg",
+      //image: "/images/scubacroc.png",
     },
     10: {
-      title: "Croc Farmer",
+      title: "Family Croc",
       location: "Crocodylus Park, Darwin",
       design: "A crocodile tending to a group of baby crocs in a protected enclosure, wearing a hat and holding a bucket of food.",
       crocwiseLesson: "Crocodile farms help conserve crocodile populations and manage risks.",
       story: "This croc educates visitors on the role of crocodile farms in conservation and sustainable crocodile management.",
+      image: "/images/family.jpeg",
     },
     11: {
       title: "Croc Pilot",
@@ -76,13 +86,15 @@ const CrocStoriesData = {
       design: "A crocodile dressed as a pilot, with aviator sunglasses and a captain’s hat, standing next to a luggage cart.",
       crocwiseLesson: "Be Crocwise from the moment you arrive in NT.",
       story: "This croc welcomes visitors to NT and reminds them that Crocwise education begins as soon as they arrive.",
+      image: "/images/pilot.jpeg",
     },
     12: {
       title: "Storyteller Croc",
       location: "Alice Springs Desert Park",
       design: "A crocodile sitting around a campfire with indigenous elders, telling a story to children.",
-      crocwiseLesson: "Crocodiles play a vital role in the ecosystem and have deep cultural significance.",
+      crocwiseLesson: "Crocodiles play a vital role in the ecosystem.",
       story: "Represents the indigenous connection to crocodiles and how they are revered in storytelling and cultural traditions.",
+      image: "/images/storyteller.jpeg",
     },
     13: {
       title: "Croc Canoeist",
@@ -90,6 +102,7 @@ const CrocStoriesData = {
       design: "A crocodile paddling a canoe down the river, with a life jacket on and a smile.",
       crocwiseLesson: "Never paddle or canoe near crocodile habitats unless you know it’s safe.",
       story: "Educates visitors on safe practices for canoeing or kayaking in NT’s rivers.",
+      image: "/images/canoeist.jpeg",
     },
     14: {
       title: "Croc Teacher",
@@ -97,7 +110,8 @@ const CrocStoriesData = {
       design: "A crocodile in a teacher’s outfit, pointing to a blackboard with a Crocwise safety tip written on it.",
       crocwiseLesson: "Learn Crocwise early, and share it with your family and friends.",
       story: "This croc emphasizes the importance of teaching crocodile safety to the younger generation.",
-      image: "/images/teachercroc.png",
+      image: "/images/teacher.jpeg",
+      //image: "/images/teachercroc.png",
     },
     15: {
       title: "Croc Magician",
@@ -105,6 +119,7 @@ const CrocStoriesData = {
       design: "A crocodile dressed as a magician, pulling a rabbit out of a hat, with a magic wand in hand.",
       crocwiseLesson: "Crocodiles may look slow on land, but they can surprise you with their speed.",
       story: "This croc reminds visitors not to be fooled by the crocodile’s calm appearance—they are fast and dangerous predators.",
+      image: "/images/magician.jpeg",
     },
   };
   
