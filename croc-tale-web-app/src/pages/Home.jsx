@@ -1,6 +1,12 @@
 // src/pages/Home.jsx
 import React from 'react';
 import Layout from '../layouts/Layout';
+import HeroSection from '../components/HeroSection';
+import ProjectIntroduction from '../components/ProjectIntroduction';
+import HowItWorks from '../components/HowItWorks';
+import RoadmapAndFuturePlans from '../components/RoadmapAndFuturePlans';
+import DataSetsAndOpenData from '../components/DataSetsAndOpenData';
+import FulfillingChallengeTasks from '../components/FulfillingChallengeTasks';
 
 
 const blocks = [
@@ -30,6 +36,7 @@ const Home = () => {
   return (
     <Layout>
       <div className="container mx-auto px-4 py-10">
+
         <h1 className="text-4xl font-bold mb-6 text-center text-gray-800">
           Croc Tales: Education and Adventure
         </h1>
@@ -37,6 +44,8 @@ const Home = () => {
         <p className="text-lg text-center mx-auto max-w-3xl my-8">
           This project is part of the GovHack 2024 competition, with the goal of boosting NT tourism and enhancing public safety education. By blending culture, wildlife, and technology, Croc Tales delivers a fun, educational experience for both locals and tourists.
         </p>
+
+        <HeroSection />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {blocks.map((block, index) => (
@@ -50,6 +59,17 @@ const Home = () => {
             </div>
           ))}
         </div>
+
+
+        <ProjectIntroduction />
+
+        <HowItWorks />
+
+        <RoadmapAndFuturePlans />
+
+        <DataSetsAndOpenData />
+
+        <FulfillingChallengeTasks /> 
 
       </div>
     </Layout>
