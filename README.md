@@ -1,9 +1,9 @@
 # Croc Tales: Education and Adventure
 
 Project for GovHack 2024. Northern Territory Challenges:
-1. Boosting Tourism in the Northern Territory: How can data be leveraged to create innovative solutions that boost tourism in the Northern Territory, attract more visitors, and/or enhance their cultural experience?
-2. Crocodile Watch - Enhancing Public Safety: How can crocodile monitoring data be leveraged to create solutions that improve public safety and reduce the risk of crocodile encounters in the Northern Territory?
-3. Connecting Communities - Your Guide to local Information and Services: How can we assist local residents and visitors in easily locating local services and providing answers to frequently asked questions?
+1. [Boosting Tourism in the Northern Territory](https://hackerspace.govhack.org/challenges/boosting_tourism_in_the_northern_territory): How can data be leveraged to create innovative solutions that boost tourism in the Northern Territory, attract more visitors, and/or enhance their cultural experience?
+2. [Crocodile Watch - Enhancing Public Safety](https://hackerspace.govhack.org/challenges/crocodile_watch_enhancing_public_safety): How can crocodile monitoring data be leveraged to create solutions that improve public safety and reduce the risk of crocodile encounters in the Northern Territory?
+3. [Connecting Communities - Your Guide to local Information and Services](https://hackerspace.govhack.org/challenges/connecting_communities_your_guide_to_local_information_and_services): How can we assist local residents and visitors in easily locating local services and providing answers to frequently asked questions?
 
 **Croc Tales: Education and Adventure** is an interactive tourism and education initiative aimed at promoting public safety and increasing engagement with the Northern Territory’s (NT) rich wildlife and cultural heritage. Inspired by the success of Wrocław’s gnome statues, this project features crocodile statues scattered across NT cities, integrated with an interactive mobile-friendly web app. The app encourages users to explore NT, learn about Crocwise safety measures, and unlock fun rewards as they discover each statue.
 
