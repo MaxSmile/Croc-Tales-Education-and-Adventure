@@ -38,8 +38,7 @@ export default function Footer() {
             This project is open-source. Check out the repository on 
             <a 
               href="https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure"
-              target="_blank"
-              rel="noopener noreferrer"
+              target="_blank" rel="noreferrer"
               className="text-bold hover:underline ml-1"
             >
               GitHub <FaGithub className="inline-block m-1" />
@@ -51,8 +50,7 @@ export default function Footer() {
               <li key={index}>
                 <a 
                   href={link.href} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                  target="_blank" rel="noreferrer"
                   className="text-bold hover:underline"
                 >
                   {link.label}
@@ -105,8 +103,8 @@ export default function Footer() {
 
       {/* Bottom Text */}
       <div className="mt-6 text-center">
-        <p>&copy; 2024 <a href="https://hackerspace.govhack.org/team_management/teams/2553" target="_blank" rel="noopener noreferrer"
-        className="text-bold hover:underline">Vasilkoff Govhack Fellowship</a>. All rights reserved.</p>
+        <p>&copy; 2024 <a href="https://hackerspace.govhack.org/team_management/teams/2553" target="_blank" 
+          rel="noopener noreferrer" className="text-bold hover:underline">Vasilkoff Govhack Fellowship</a>. All rights reserved.</p>
       </div>
     </footer>
   );
