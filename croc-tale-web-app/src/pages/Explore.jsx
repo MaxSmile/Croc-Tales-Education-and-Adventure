@@ -19,6 +19,7 @@ const Explore = () => {
         <div className="mb-10">
           <div className="bg-gray-500 rounded-lg h-full flex items-center justify-center">
             <iframe
+              title="Streamlit application"
               src="https://croc-tales.streamlit.app?embed=true"
               style={{width: "100%", height: "800px"}}
             ></iframe>

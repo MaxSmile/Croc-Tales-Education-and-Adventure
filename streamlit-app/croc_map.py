@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import folium
+from streamlit_folium import folium_static
 
 DATA_URL = "https://rolzy-blog-assets.s3.ap-southeast-2.amazonaws.com/Crocodile_Survey_Data_2021_22.xlsx"
 DATE_COLUMN = "utc_date"
@@ -70,7 +72,43 @@ else:
     filtered_data = data
     st.markdown("<h3 style='color: #FF6600;'>Map of all sightings</h3>", unsafe_allow_html=True)
 
-st.map(filtered_data, use_container_width=True)
+#st.map(filtered_data, use_container_width=True)
+# Create a folium map
+m = folium.Map(location=[filtered_data['latitude'].mean(), filtered_data['longitude'].mean()], 
+               zoom_start=5, 
+               tiles="CartoDB positron")  # Light theme
+
+# Add markers for each sighting
+for idx, row in filtered_data.iterrows():
+    folium.CircleMarker(
+        location=[row['latitude'], row['longitude']],
+        radius=5,
+        popup=f"Date: {row[DATE_COLUMN].strftime('%Y-%m-%d')}",
+        color="#FF6600",
+        fill=True,
+        fillColor="#FF6600"
+    ).add_to(m)
+
+# Display the map
+folium_static(m, width=1000, height=600)
+#st.pydeck_chart(pdk.Deck(
+#    map_style="mapbox://styles/mapbox/satellite-v9",
+#    initial_view_state=pdk.ViewState(
+#        latitude=filtered_data['latitude'].mean(),
+#        longitude=filtered_data['longitude'].mean(),
+#        zoom=5,
+#        pitch=0,
+#    ),
+#    layers=[
+#        pdk.Layer(
+#            'ScatterplotLayer',
+#            data=filtered_data,
+#            get_position='[longitude, latitude]',
+#            get_color='[200, 30, 0, 160]',
+#            get_radius=1000,
+#        ),
+#    ],
+#))
 
 if st.checkbox('Show raw data'):
     st.markdown("<h3 style='color: #FF6600;'>Raw data</h3>", unsafe_allow_html=True)
