@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/video/welcome.mp4"
+        src="/video/welcome.webm"
         autoPlay
         loop
         muted
