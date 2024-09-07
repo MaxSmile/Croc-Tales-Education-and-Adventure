@@ -164,7 +164,7 @@ This project is part of the **GovHack 2024** competition, with the goal of boost
    - **Educational Content**: The app can use this data to educate users about population trends in specific areas, providing context on why Crocwise education is critical.
    - **Location-Based Insights**: Users visiting areas with higher crocodile populations will receive additional Crocwise safety messages based on the data.
 
-6.**NT Parks and Reserves - NTG Open Data Portal** [NT Parks and Reserves - NTG Open Data Portal](https://data.nt.gov.au/dataset/natural-resource-maps---nt-parks-and-reserves)
+6. **NT Parks and Reserves - NTG Open Data Portal** [NT Parks and Reserves - NTG Open Data Portal](https://data.nt.gov.au/dataset/natural-resource-maps---nt-parks-and-reserves)
 **Integration**:
    - **Local Services and Amenities Examples On Map**: This is the first factor/example (parks and reserves) of how the project will integrate other local services data onto user's real map. And based on user's location, suggest nearby local services.
 
