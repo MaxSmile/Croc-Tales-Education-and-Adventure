@@ -3,6 +3,10 @@
     @apply font-bold py-2 px-4 rounded bg-white text-gray-700 hover:bg-gray-200 transition duration-300;
 }
 
+.btn-orange {
+    @apply bg-ntOrange text-white px-4 py-2 rounded-lg hover:bg-ntOrange/80 cursor-pointer transition duration-300;
+}
+
 .shadow {
     @drop-shadow hover:drop-shadow-xl;
 } 

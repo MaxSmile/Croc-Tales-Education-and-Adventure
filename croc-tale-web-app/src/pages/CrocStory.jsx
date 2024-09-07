@@ -34,12 +34,15 @@ const CrocStory = () => {
 
         {/* Right side: Text section */}
         <div className="lg:w-1/2 text-center lg:text-left lg:pl-10">
-          <h1 className="text-4xl font-bold mb-4 text-blue-600">{crocStory.title}</h1>
+          <h1 className="text-4xl font-bold mb-4 text-gray-800">{crocStory.title}</h1>
           <p className="text-lg mb-6 text-gray-700">{crocStory.story}</p>
           <p className="text-md mb-4 text-gray-500">Location: {crocStory.location}</p>
           <p className="text-md mb-4 text-gray-500">Design: {crocStory.design}</p>
           <p className="text-md text-green-600 font-semibold">Crocwise Lesson: {crocStory.crocwiseLesson}</p>
         </div>
+        <p className="mt-6 lg:mt-0 text-gray-500 text-left">
+            <a href="/stories" className="btn-orange">Back to more croc stories</a>
+        </p>
       </div>
     </Layout>
   );
