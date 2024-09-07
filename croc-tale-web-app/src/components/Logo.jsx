@@ -4,8 +4,8 @@ import logo from '../assets/logo.png';
 
 const Logo = () => {
   return (
-    <img src={logo} alt="Croc Tales Logo" 
-    className="w-12 h-12 rounded-full" width="50" height="50" />
+    <img src="/images/croc-logo-line.svg" alt="Croc Tales Logo" 
+      className="w-16 h-16 rounded-full mx-6" width="60" height="60" />
   );
 };
 
