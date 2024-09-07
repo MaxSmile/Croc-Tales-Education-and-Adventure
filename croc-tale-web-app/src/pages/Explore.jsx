@@ -8,10 +8,10 @@ const Explore = () => {
     <Layout>
       <div className="container mx-auto text-center py-10">
         {/* Title */}
-        <h1 className="text-4xl font-bold mb-6 text-blue-600">Explore Croc Locations</h1>
+        <h1 className="text-4xl font-bold mb-6 text-gray-800">Explore Croc Locations</h1>
         
         {/* Introduction */}
-        <p className="text-lg text-gray-700 mb-8">
+        <p className="text-lg text-gray-700 mb-8 mx-auto max-w-3xl">
           Discover the crocodile statues scattered across the Northern Territory. Explore locations, learn about crocodile safety, and uncover the stories behind each unique statue.
         </p>
 
