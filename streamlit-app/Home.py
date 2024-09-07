@@ -26,7 +26,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.write("")
-st.header("Welcome to Croc Tales - Your Gateway to Crocodile Adventures! 🐊")
+st.header("Welcome to Croc Tales - Your Gateway to Crocodile Adventures!")
 
 st.sidebar.success("Start your adventure here:")
 st.markdown(
@@ -40,9 +40,5 @@ st.markdown(
 
     ## Want to Learn More?
     - 🌐 Visit our website: [croctales.com](https://croc-tales.web.app/)
-
-    ## Discover Crocodile Hotspots
-    - 🗺️ [Interactive Map of Crocodile Sightings](https://croctales.com/map)
-    - 📊 [Crocodile Population Statistics](https://croctales.com/stats)
 """
 )
