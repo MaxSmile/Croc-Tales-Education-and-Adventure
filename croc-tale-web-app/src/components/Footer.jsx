@@ -67,7 +67,7 @@ export default function Footer() {
           <h3 className="text-xl font-semibold">Useful Links</h3>
           <ul className="mt-2 space-y-2">
             {footerLinks.map((link, index) => (
-              <li key={index}>
+              <li key={index} className="ml-4">
                 <a 
                   href={link.href} 
                   target="_blank" 
@@ -86,7 +86,7 @@ export default function Footer() {
           <h3 className="text-xl font-semibold">Team Members</h3>
           <ul className="mt-2 space-y-2">
             {teamLinks.map((link, index) => (
-              <li key={index}>
+              <li key={index} className="ml-4">
                 <a 
                   href={link.href} 
                   target="_blank" 

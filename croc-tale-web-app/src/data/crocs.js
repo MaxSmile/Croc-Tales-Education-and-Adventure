@@ -61,6 +61,7 @@ const CrocStoriesData = {
       design: "A crocodile wearing diving gear, mask, snorkel, and flippers, next to a sign saying 'Do not enter the water.'",
       crocwiseLesson: "Never enter water without checking for crocodile risks.",
       story: "This croc emphasizes safety awareness before engaging in water activities in croc-prone areas.",
+      image: "/images/scubacroc.png",
     },
     10: {
       title: "Croc Farmer",
@@ -96,6 +97,7 @@ const CrocStoriesData = {
       design: "A crocodile in a teacher’s outfit, pointing to a blackboard with a Crocwise safety tip written on it.",
       crocwiseLesson: "Learn Crocwise early, and share it with your family and friends.",
       story: "This croc emphasizes the importance of teaching crocodile safety to the younger generation.",
+      image: "/images/teachercroc.png",
     },
     15: {
       title: "Croc Magician",

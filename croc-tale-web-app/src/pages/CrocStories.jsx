@@ -21,10 +21,10 @@ export default function CrocStories() {
                         <div key={index} className="bg-gray-200 rounded-lg p-6">
                             <h2 className="text-2xl font-semibold mb-2">
                                 <a href={'/story/' + key}>{story.title}</a></h2>
-                            <p className="text-lg mb-4">{story.location}</p>
-                            <p className="text-lg mb-4">{story.design}</p>
+                            <p className="text-sm underline mb-4">{story.location}</p>
+                            
                             <p className="text-lg mb-4">{story.crocwiseLesson}</p>
-                            <p className="text-lg">{story.story}</p>
+                            <img src={story.image || '/images/croc-logo.svg'} alt={story.title} className="w-full h-auto" />
                         </div>  
                     )
                     })
