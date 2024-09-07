@@ -1,7 +1,7 @@
 // src/components/CrocTalesTimeline.jsx
 import React from 'react';
 import { Chrono } from 'react-chrono';
-import TimeLineItems from '../data/timeline';
+import TimeLineItems from '../data/timelines';
 
 const CrocTalesTimeline = () => {
   return (
