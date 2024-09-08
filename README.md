@@ -10,6 +10,7 @@ Project for GovHack 2024. Northern Territory Challenges:
 
 ![Logo Croc](https://github.com/user-attachments/assets/cd6d2dd6-15bb-40aa-9283-5489f6ff1ebd)
 
+![Logo Gif](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/Logo%20gif.gif?raw=true)
 
 Demo: [https://croc-tales.web.app/](https://croc-tales.web.app/)
 
