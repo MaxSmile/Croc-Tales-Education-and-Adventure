@@ -51,6 +51,8 @@ This project is part of the **GovHack 2024** competition, with the goal of boost
    - Encourages exploration of multiple cities and locations, helping boost tourism across NT.
 
 ![Features Mock-up](https://raw.githubusercontent.com/MaxSmile/Croc-Tales-Education-and-Adventure/main/images/CrocTales%20Web%20Features%20Mobile%20Mockup.png)
+![Croc Tales Web page](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/Features%20Mockup/Screenshot%202024-09-08%20161045.png?raw=true)
+![Croc Tales Stories page](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/Features%20Mockup/Stories.png?raw=true)
 
 ---
 
