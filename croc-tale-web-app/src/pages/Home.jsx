@@ -7,6 +7,7 @@ import HowItWorks from '../components/HowItWorks';
 import RoadmapAndFuturePlans from '../components/RoadmapAndFuturePlans';
 import DataSetsAndOpenData from '../components/DataSetsAndOpenData';
 import FulfillingChallengeTasks from '../components/FulfillingChallengeTasks';
+import InspirationSection from '../components/Inspiration';
 
 
 const blocks = [
@@ -44,6 +45,8 @@ const Home = () => {
         <p className="text-lg text-center mx-auto max-w-3xl my-8">
           This project is part of the GovHack 2024 competition, with the goal of boosting NT tourism and enhancing public safety education. By blending culture, wildlife, and technology, Croc Tales delivers a fun, educational experience for both locals and tourists.
         </p>
+
+        <InspirationSection />
 
         <HeroSection />
 
