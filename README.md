@@ -49,10 +49,6 @@ This project is part of the **GovHack 2024** competition, with the goal of boost
 5. **Tourism Promotion**:  
    - Encourages exploration of multiple cities and locations, helping boost tourism across NT.
 
-![Features Mock-up](https://raw.githubusercontent.com/MaxSmile/Croc-Tales-Education-and-Adventure/main/images/CrocTales%20Web%20Features%20Mobile%20Mockup.png)
-![Croc Tales Web page](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/Features%20Mockup/Screenshot%202024-09-08%20161045.png?raw=true)
-![Croc Tales Stories page](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/Features%20Mockup/Stories.png?raw=true)
-
 ---
 
 ## Project Timeline for GovHack
@@ -143,6 +139,12 @@ This project is part of the **GovHack 2024** competition, with the goal of boost
    - **Social Media Integration**: Users can share their achievements and crocodile-themed photo frames on social media platforms.
    - **Crocwise Education**: Integrated educational tips and fun facts about crocodile safety at each stage.
    - **Personlised Local Services Recommendations**: Locates user's current location and suggests nearby local services.
+
+
+![Features Mock-up](https://raw.githubusercontent.com/MaxSmile/Croc-Tales-Education-and-Adventure/main/images/CrocTales%20Web%20Features%20Mobile%20Mockup.png)
+![Croc Tales Web page](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/Features%20Mockup/Screenshot%202024-09-08%20161045.png?raw=true)
+![Croc Tales Stories page](https://github.com/MaxSmile/Croc-Tales-Education-and-Adventure/blob/main/images/Features%20Mockup/Stories.png?raw=true)
+
 
 ---
 
