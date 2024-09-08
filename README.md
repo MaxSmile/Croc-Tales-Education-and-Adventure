@@ -25,6 +25,8 @@ This project is part of the **GovHack 2024** competition, with the goal of boost
 - **Crocwise Education**: Promoting public safety through interactive educational materials on crocodile safety, aligned with the NT government’s **Crocwise** program.
 - **Cultural Promotion**: Highlighting the connection between crocodiles, NT’s wildlife, and Indigenous culture through historical and cultural storytelling.
 
+[![Watch the video](https://img.youtube.com/vi/BdDjOGbOlGg/0.jpg)](https://youtu.be/BdDjOGbOlGg)
+
 ---
 
 ## Project Features
