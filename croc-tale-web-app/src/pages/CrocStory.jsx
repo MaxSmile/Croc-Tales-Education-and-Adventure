@@ -39,7 +39,8 @@ const CrocStory = () => {
           <p className="text-md mb-4 text-gray-500">Location: {crocStory.location}</p>
           <p className="text-md mb-4 text-gray-500">Design: {crocStory.design}</p>
           <p className="text-md text-green-600 font-semibold">Crocwise Lesson: {crocStory.crocwiseLesson}</p>
-          <p>More Inspiration from <a href="https://territorystories.nt.gov.au/10070/383670" target="_blank" rel="noopener noreferrer">Territory Stories</a></p>
+          <p className="mt-6 pt-6 lg:mt-0 text-gray-500 text-left"><strong>More Inspiration from the story of the place:</strong> <a href="https://territorystories.nt.gov.au/10070/383670" 
+            className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Territory Stories</a></p>
           <p className="mt-6 pt-6 lg:mt-0 text-gray-500 text-left">
             <a href="/stories" className="btn-orange">Back to more croc stories</a>
           </p>
