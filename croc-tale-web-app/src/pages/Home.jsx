@@ -7,8 +7,8 @@ import HowItWorks from '../components/HowItWorks';
 import RoadmapAndFuturePlans from '../components/RoadmapAndFuturePlans';
 import DataSetsAndOpenData from '../components/DataSetsAndOpenData';
 import FulfillingChallengeTasks from '../components/FulfillingChallengeTasks';
+import NextSteps from '../components/NextSteps';
 import InspirationSection from '../components/Inspiration';
-
 
 const blocks = [
   {
@@ -73,6 +73,8 @@ const Home = () => {
         <DataSetsAndOpenData />
 
         <FulfillingChallengeTasks /> 
+
+        <NextSteps />
 
       </div>
     </Layout>
