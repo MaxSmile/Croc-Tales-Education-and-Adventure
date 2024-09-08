@@ -172,6 +172,25 @@ By integrating these datasets, the app can deliver more **real-time safety infor
 
 ---
 
+### Roadmap for future development
+1. A chatbot that informs tourists about the history of NT and recommends activities to do around the NT
+- Ingest documents from “Territory Stories” dataset for history
+- Ingest documents from “Visit the Northern Territory” dataset for tourism recommendations
+
+1. Improving the crocodile maps
+- Current Crocodile sighting dataset is limited to data from 2021-2022. 
+- For the map to portray real-time crocodile sighting alerts, we need fresh data
+- Suggestion: Deploy cameras along crocodile hotspots. Use object recognition to detect crocodiles. Sightings from cameras are recorded to a database. The map visualization is hooked up to the database to display the latest sightings
+- Use cameras to minimise human interaction. Save cost and prevent from exposing staff to danger
+- Can cover a wider area, 24/7 at lower cost
+ 
+3. Improving the activity map
+- Add more types of data to the interactive map. Currently we only have national parks. 
+- Obtain dataset of local tourist attractions from https://northernterritory.com/map
+- Work with local businesses to advertise their stores on the interactive map too.
+- Color code parks/tourist attractions/local business
+
+---
 ### **Statue Themes and Ideas**:
 
 Please see the [statue themes and ideas](./docs/STATUE_THEMES.md) for more details.
