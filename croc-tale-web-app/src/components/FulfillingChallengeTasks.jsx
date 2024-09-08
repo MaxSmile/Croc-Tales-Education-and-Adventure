@@ -47,57 +47,6 @@ const FulfillingChallengeTasks = () => {
             </p>
           </div>
         </div>
-
-        {/* Visual Examples - Logos for Challenges as Links */}
-        <div className="mt-10 flex flex-wrap justify-center">
-          {/* Boosting Tourism in the Northern Territory */}
-          <div className="w-full sm:w-1/2 md:w-1/3 p-4">
-            <a 
-              href="https://hackerspace.govhack.org/challenges/boosting_tourism_in_the_northern_territory" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/images/2024_ntg-primary-cmyk.jpg" // Replace with actual logo/image for Boosting Tourism
-                alt="Boosting Tourism in the NT"
-                width="240px"
-              />
-            </a>
-            <p className="mt-2 text-center">Boosting Tourism in the NT</p>
-          </div>
-
-          {/* Crocodile Watch - Enhancing Public Safety */}
-          <div className="w-full sm:w-1/2 md:w-1/3 p-4">
-            <a 
-              href="https://hackerspace.govhack.org/challenges/crocodile_watch_enhancing_public_safety" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/images/2024_Jackadder_Full_colour_logo.png" // Replace with actual logo/image for Crocodile Watch
-                alt="Crocodile Watch - Public Safety"
-                width="260px"
-              />
-            </a>
-            <p className="mt-2 text-center">Crocodile Watch - Enhancing Public Safety</p>
-          </div>
-
-          {/* Connecting Communities - Local Information */}
-          <div className="w-full sm:w-1/2 md:w-1/3 p-4">
-            <a 
-              href="https://hackerspace.govhack.org/challenges/connecting_communities_your_guide_to_local_information_and_services" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/images/2024_ntg-primary-cmyk.jpg" // Replace with actual logo/image for Connecting Communities
-                alt="Connecting Communities - Local Info"
-                width="240px"
-              />
-            </a>
-            <p className="mt-2 text-center">Connecting Communities - Local Info</p>
-          </div>
-        </div>
       </div>
     </section>
   );
