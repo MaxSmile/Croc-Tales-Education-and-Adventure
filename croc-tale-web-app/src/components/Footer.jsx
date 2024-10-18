@@ -95,6 +95,9 @@ export default function Footer() {
               </li>
             ))}
           </ul>
+          <hr/>
+           <h3 className="text-xl font-semibold">Contact Us</h3>
+           <p><b>uaant.inc@gmail.com</b></p>
 
           
         </div>
